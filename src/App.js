@@ -1,12 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import LayOut from "./components/layout/LayOut";
 
 function App() {
-  return (
-    <div className="App">
+    return (
+        <>
+            <LayOut>
 
-    </div>
-  );
+            </LayOut>
+        </>
+    );
 }
 
 export default App;
